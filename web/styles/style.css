@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.12.23., 17:23:59
+    Author     : Joti
+*/
+
+.button {
+  width: 120px;
+  height: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;	
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: #cccccc;
+  outline: 0;
+  text-align: center;
+}
+
+.button2 {
+  width: 220px;
+  height: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;	
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: #cccccc;
+  outline: 0;
+  text-align: center;
+}
+
+.buttondisabled {
+  width: 120px;
+  height: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;	
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: gray;
+  background-color: #cccccc;
+  outline: 0;
+  text-align: center;
+}
+
+.invisible {
+  display: none;
+}
+
+.text {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;	
+  font-weight: bold;
+  color: black;
+  line-height: 1;
+}
+
+.riddle {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 24px;	
+  font-weight: bold;
+  color: red;
+}
+
+.input {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  width: 35px;
+  font-size: 20px;	
+  font-weight: bold;
+  color: green;
+}
+
+.error {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 14px;	
+  color: red;
+  line-height: 14px;
+}
+
+.gameover {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;	
+  font-weight: bold;
+  color: black;
+}

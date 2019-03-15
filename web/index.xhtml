@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough" 
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Karácsonyfadísz akasztó játék</title>
+        <link href="#{facesContext.externalContext.requestContextPath}/styles/style.css" rel="stylesheet" type="text/css"/>
+    </h:head>
+    <h:body style="background-image:url(#{facesContext.externalContext.requestContextPath}/images/snow.jpg)">
+        <h:form rendered="#{feladvany.eredmeny > -1}">
+            <p align="center">
+                <img src="#{facesContext.externalContext.requestContextPath}/images/title6.png"/>
+            </p>        
+            <p align="center">
+                <table id="tblJatek" align="center" class="text" style="width:780px;">
+                    <tr style="line-height: 30px">
+                        <td style="width:170px;">Témakör:</td>
+                        <td style="width:200px;"><h:outputText id="ot_temakor" value="#{feladvany.formazottTemakor}"/></td>
+                        <td rowspan="2" align="right" style="font-size: 26px;">Díszek száma: <h:outputText id="ot_pontszam" value="#{feladvany.pontszam}"/></td>
+                    </tr>  
+                    <tr style="line-height: 30px">
+                        <td>Jutalom:</td>
+                        <td><h:outputText id="ot_jutalom" value="#{feladvany.szint} db dísz"/></td>
+                    </tr>  
+                    <tr style="height:110px" valign="middle">
+                        <td>Feladvány:</td>
+                        <td colspan="2" align="center">
+                            <pre><h:outputText id="ot_feladvany" value="#{feladvany.formazottAktualis}" class="riddle"/> 
+                              <h:panelGroup id="pg_pipa">
+                                <h:graphicImage id="img_pipa" value="/images/check.png" style="margin-left:30px;" rendered="#{feladvany.eredmeny == 1 || feladvany.eredmeny == 3}"/>
+                                <h:graphicImage id="img_pipa0" value="/images/check0.png" style="margin-left:30px;" rendered="#{feladvany.eredmeny == 0 || feladvany.eredmeny == 2}"/>
+                              </h:panelGroup></pre>
+                        </td>
+                    </tr>  
+                    <tr style="height:50px;" valign="middle">
+                        <td>Következő tipp:</td>
+                        <td>
+                            <h:inputText id ="it_tipp" class="input" value="#{feladvany.tipp}" maxlength="1" a:autofocus="true" disabled="#{feladvany.eredmeny > 0}"/>
+                            <h:commandButton id="btn_ujtipp" class="#{feladvany.submitButtonClass}" style="margin-left:10px;" value="Mehet" 
+                                             action="#{feladvany.ujTipp()}" disabled="#{feladvany.eredmeny > 0}">
+                                <f:ajax execute="it_tipp" render="it_tipp ot_temakor ot_jutalom ot_pontszam ot_feladvany ot_hibastippek ot_hibaszoveg ot_eredmenyszoveg pg_ujjatek btn_ujtipp img_fa0 img_fa1 img_fa2 img_fa3 img_fa4 pg_pipa"/>
+                            </h:commandButton>
+                        </td>
+                        <td>
+                            <h:outputText id="ot_hibaszoveg" class="error" style="line-height: 10px; font-size: 14px" value="#{feladvany.hiba}"/>
+                            <h:outputText id="ot_eredmenyszoveg" class="gameover" value="#{feladvany.eredmenySzoveg}"/>
+                        </td>
+                    </tr>  
+                    <tr style="line-height: 30px">
+                        <td>Hibás tippek:</td>
+                        <td><h:outputText id="ot_hibastippek" value="#{feladvany.formazottRosszTippek}"/></td>
+                        <td></td>
+                    </tr>  
+                    <tr style="line-height: 55px">
+                        <td colspan="3" align="center">
+                            <h:panelGroup id="pg_ujjatek">
+                                <h:commandButton id="btn_kovetkezo" class="button2" value="Következő feladvány"
+                                                 action="#{feladvany.ujFeladvany()}" rendered="#{feladvany.eredmeny == 1}"/>
+                                <h:commandButton id="btn_ujjatek" class="button" value="Új játék"
+                                                 action="#{feladvany.ujJatek()}" rendered="#{feladvany.eredmeny > 1}"/> &nbsp;
+                            </h:panelGroup>  
+                        </td>
+                    </tr>  
+                </table>
+                <table id="trees" align="center">
+                    <tr>
+                        <td>
+                            <h:graphicImage id="img_fa3" width="150px" value="/images/#{feladvany.getFakep(3)}"/>
+                        </td>
+                        <td>
+                            <h:graphicImage id="img_fa1" width="150px" value="/images/#{feladvany.getFakep(1)}"/>
+                        </td>
+                        <td>
+                            <h:graphicImage id="img_fa0" width="150px" value="/images/#{feladvany.getFakep(0)}"/>
+                        </td>
+                        <td>
+                            <h:graphicImage id="img_fa2" width="150px" value="/images/#{feladvany.getFakep(2)}"/>
+                        </td>
+                        <td>
+                            <h:graphicImage id="img_fa4" width="150px" value="/images/#{feladvany.getFakep(4)}"/>
+                        </td>
+                    </tr>   
+                </table>
+            </p>
+        </h:form>
+        <h:form rendered="#{feladvany.eredmeny == -1}">
+            <p align="center">
+                <img src="#{facesContext.externalContext.requestContextPath}/images/title6.png"/>
+            </p>        
+            <p class="text" align="center">
+                <table id="tblSzabalyok" align="center" class="text" style="width:800px; line-height: 1.5">
+                    <tr>
+                        <td>
+                            Üdvözöllek!<br/><br/>
+                            Ebben a szókitalálós játékban a karácsonyi-újévi időszakhoz kapcsolódó feladványokkal fogsz találkozni.<br/>
+                            A közismert akasztófa játékhoz hasonlóan ezúttal is a feladványt alkotó betűkre kell helyesen tippelned.
+                            Legfeljebb 7 olyan betűt jelölhetsz meg, ami nem szerepel a feladványban, a 8. után a játék véget ér.
+                            Sikeres megfejtés után továbbléphetsz a következő feladványra, és tovább gyűjtheted a pontokat.
+                            <br/>
+                            A játékban a pontszámokat karácsonyfadíszek reprezentálják. Minden egyes megfejtéssel a feladvány nehézségétől függő számú
+                            díszhez juthatsz hozzá, ezek a játékfelület alatt megjelenő karácsonyfarajzokra is felkerülnek.
+                            Ha egy feladványra már 3 rossz tippet adtál, segítségképpen megtudhatod a témakört, amelybe tartozik (regény, film, étel, stb.).
+                            A segítség révén viszont eggyel csökken a helyes megfejtéssel megszerezhető karácsonyfadíszek száma.<br/>
+                            <br/>
+                            Jó játékot és kellemes ünnepeket kívánok!
+                        </td>
+                    </tr>  
+                    <tr>
+                      <td align="right">
+                        Tihon József
+                      </td>
+                    </tr>
+                    <tr style="line-height: 60px">
+                        <td align="center">
+                            <h:commandButton id="btn_start" class="button2" value="Játék indítása"
+                                             action="#{feladvany.ujJatek()}" rendered="#{feladvany.eredmeny == -1}"/>
+                        </td>
+                    </tr>  
+                </table>    
+
+            </p>    
+        </h:form>
+    </h:body>
+</html>
+

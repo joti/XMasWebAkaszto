@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <WORD>
+        <TOPIC>Jókívánság</TOPIC>
+        <TEXT>Kellemes karácsonyi;ünnepeket!</TEXT>
+        <LEVEL>1</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Jókívánság</TOPIC>
+        <TEXT>Boldog új évet!</TEXT>
+        <LEVEL>1</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Előadó</TOPIC>
+        <TEXT>Fenyő Miklós</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Politikus</TOPIC>
+        <TEXT>Karácsony Gergely</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Sportoló</TOPIC>
+        <TEXT>Csollány Szilveszter</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Sláger</TOPIC>
+        <TEXT>Last Christmas</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Dal</TOPIC>
+        <TEXT>Mennyből;az angyal</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Dal</TOPIC>
+        <TEXT>Kiskarácsony,;nagykarácsony</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Dal</TOPIC>
+        <TEXT>Csendes éj</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Dal</TOPIC>
+        <TEXT>Suttog;a fenyves</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Dal</TOPIC>
+        <TEXT>Hull a pelyhes;fehér hó</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Dal</TOPIC>
+        <TEXT>Ó, szép fenyő</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Dal</TOPIC>
+        <TEXT>Jaj de pompás fa</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Film</TOPIC>
+        <TEXT>Reszkessetek,;betörők!</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Film</TOPIC>
+        <TEXT>Igazából;szerelem</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Film</TOPIC>
+        <TEXT>Shrekből;az angyal</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Mese</TOPIC>
+        <TEXT>A kis;gyufaáruslány</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Állat</TOPIC>
+        <TEXT>Rénszarvas</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Regény</TOPIC>
+        <TEXT>Karácsonyi ének</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Vers</TOPIC>
+        <TEXT>Száncsengő</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Étel</TOPIC>
+        <TEXT>Töltött;káposzta</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Étel</TOPIC>
+        <TEXT>Mákos guba</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Étel</TOPIC>
+        <TEXT>Rántott hal</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Étel</TOPIC>
+        <TEXT>Halászlé</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Étel</TOPIC>
+        <TEXT>Gesztenyével;töltött pulyka</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Étel</TOPIC>
+        <TEXT>Lencsefőzelék</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Ital</TOPIC>
+        <TEXT>Gyerekpezsgő</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Finomság</TOPIC>
+        <TEXT>Diós bejgli</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Finomság</TOPIC>
+        <TEXT>Szaloncukor</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Finomság</TOPIC>
+        <TEXT>Mézeskalács</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Finomság</TOPIC>
+        <TEXT>Zserbó</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Finomság</TOPIC>
+        <TEXT>Kalács</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Finomság</TOPIC>
+        <TEXT>Habkarika</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Hely</TOPIC>
+        <TEXT>Vörösmarty tér</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Növény</TOPIC>
+        <TEXT>Ezüstfenyő</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Tárgy</TOPIC>
+        <TEXT>Adventi koszorú</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Tárgy</TOPIC>
+        <TEXT>Adventi naptár</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Tárgy</TOPIC>
+        <TEXT>Fényfüzér</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Tárgy</TOPIC>
+        <TEXT>Csillagszóró</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Tárgy</TOPIC>
+        <TEXT>Csúcsdísz</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Szokás</TOPIC>
+        <TEXT>Betlehemezés</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Szokás</TOPIC>
+        <TEXT>Karácsonyfa;állítás</TEXT>
+        <LEVEL>2</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Szokás</TOPIC>
+        <TEXT>Ajándékozás</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Szokás</TOPIC>
+        <TEXT>Regölés</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Csoport</TOPIC>
+        <TEXT>Háromkirályok</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Csoport</TOPIC>
+        <TEXT>Aprószentek</TEXT>
+        <LEVEL>4</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Csoport</TOPIC>
+        <TEXT>Bécsi;Filharmonikusok</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Esemény</TOPIC>
+        <TEXT>Éjféli mise</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Esemény</TOPIC>
+        <TEXT>Téli napforduló</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Esemény</TOPIC>
+        <TEXT>A köztársasági elnök;újévi köszöntője</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Esemény</TOPIC>
+        <TEXT>Aranyvasárnap</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+    <WORD>
+        <TOPIC>Műsor</TOPIC>
+        <TEXT>Szilveszteri;bakiparádé</TEXT>
+        <LEVEL>3</LEVEL>
+    </WORD>
+</root>
+
